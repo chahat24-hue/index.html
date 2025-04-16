@@ -1,0 +1,40 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #A3EE11;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    background: orange;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px yellow(156, 12, 156, 0.1);
+}
+
+.parent-list {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.parent {
+    text-align: center;
+    cursor: pointer;
+}
+
+.parent img {
+    border-radius: 20%;
+    
+}
+
+.biodata {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid palevioletred;
+    border-radius: 5px;
+    background: palevioletred;
+}
